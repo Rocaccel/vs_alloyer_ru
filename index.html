@@ -64,25 +64,25 @@
     </style>
 </head>
 <body>
-    <h2>Alloy Calculator</h2>
+    <h2>Калькулятор сплавов</h2>
 
-    <label for="metal">Select Metal:</label>
+    <label for="metal">Выбрать металл:</label>
     <select id="metal">
-        <option value="tin_bronze">Tin Bronze</option>
-        <option value="bismuth_bronze">Bismuth Bronze</option>
-        <option value="black_bronze">Black Bronze</option>
-        <option value="brass">Brass</option>
-        <option value="cupronickel">Cupronickel</option>
-        <option value="electrum">Electrum</option>
-        <option value="molybdochalkos">Molybdochalkos</option>
-        <option value="lead_solder">Lead Solder</option>
-        <option value="silver_solder">Silver Solder</option>
+        <option value="tin_bronze">Оловяная бронза</option>
+        <option value="bismuth_bronze">Висмутовая бронза</option>
+        <option value="black_bronze">Черная бронза</option>
+        <option value="brass">Латунь</option>
+        <option value="cupronickel">Мельхиор</option>
+        <option value="electrum">Электрум</option>
+        <option value="molybdochalkos">Молибдохалк</option>
+        <option value="lead_solder">Cвинцовый припой</option>
+        <option value="silver_solder">Серeбрянный припой</option>
     </select>
 
-    <label for="goal">Goal (min 100 units):</label>
+    <label for="goal">Цель (мин. 100 едениц):</label>
     <input type="number" id="goal" min="100" step="5" value="100">
 
-    <button onclick="calculate()">Calculate</button>
+    <button onclick="calculate()">Расчитать</button>
 
     <div id="result"></div>
 
@@ -208,4 +208,5 @@
 	<div class="credits">Made by <a href="https://github.com/sehvie/alloyer" target="_blank">Sevie</a>! (@sehvie)</div>
 </body>
 </html>
+
 
